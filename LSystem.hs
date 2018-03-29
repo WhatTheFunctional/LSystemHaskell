@@ -2,8 +2,6 @@
 --Copyright Laurence Emms 2018
 --Lindenmayer system tree generator example
 
-import qualified Data.Map
-
 data Start a = Start a deriving (Show)
 data Rules a = Rules (a -> [a])
 
